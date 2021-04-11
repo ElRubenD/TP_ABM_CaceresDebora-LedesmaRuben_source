@@ -1,0 +1,120 @@
+body{
+    background-color:#5E2129;
+    /* El Color lo elegimos por su bajo contraste y su mejor aceptacion a la vista, ideal para horas largas de trabajo sin molestias */
+    font-size: medium;
+    font-family: 'Syne', sans-serif;
+    /* Buscamos con las Fuentes de Google y agregamos el atajo del codigo CSS */
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    min-height: 100vh;
+}
+
+header{
+    background-color: white;
+    width: 100%;
+    color: black;
+    height: 50px;
+}
+footer {
+    background-color:white;
+    text-align: center;
+    align-self: flex-end;
+    width: 100%;
+    height: 70px;
+}
+
+img.chica{
+    height: 50px;
+}
+
+img.logo{
+    height: 40px;
+    margin-top: 1%;
+}
+
+table.prim{
+    width: auto;
+    margin: 0 auto;
+    text-align: left;
+}
+
+table.sec{
+    margin-left: 15%;
+    text-align: center;
+    height: 20px;
+}
+
+table.botones{
+    position: relative;
+    left: 50%;
+}
+
+tr.encabezado{
+    background-color: #3C3C3C;
+}
+
+th{
+    height: 50px;
+}
+
+th.fijo{
+    text-align: left;
+}
+
+h1{
+    font-size: xx-large;
+    text-align: center;
+}
+
+h2.mover{
+    text-align: left;
+    margin-left: 15%;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: black;
+}
+
+input{
+    width: 120%;
+}
+
+input, button{
+    text-decoration: none;
+    color: black;
+    border-radius: 20px 10px 50px 30px;
+}
+
+button.portada{
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:40px;
+    padding-right:40px;
+    border-radius: 5px;
+    background-color:#3C3C3C;
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    color:white;
+    font-size: larger;
+    margin: 1em;
+}
+
+button.Regbtn{
+    margin: 2em;
+}
+
+span{
+    color: white;
+}
+
+#usuario, #password{
+    width: 100%;
+}
+
+div.container{
+    text-align: center;
+    margin-left: 10%;
+}
